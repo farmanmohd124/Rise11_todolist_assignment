@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to bottom right, #6983aa, #8566aa);
+}
+
+.centre-div {
+  width: 40%;
+  height: 80vh;
+  background-color: #fff;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centre-div h1 {
+  color: #fff;
+  background: transparent;
+  background-color: #8566aa;
+  padding: 10px 70px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.centre-div input {
+  text-align: center;
+  height: 40px;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.centre-div button {
+  min-height: 40px;
+  min-width: 40px;
+  border-color: transparent;
+  background-color: #8566aa;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centre-div button:hover {
+  background-color: #20bf6b;
+}
+
+.centre-div ol {
+  margin-top: 30px;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+ol li {
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.item-remove {
+  display: flex;
+  align-items: center;
+}
+
+.centre-div .btn {
+  width: 90px;
+  height: 25px;
+  font-size: 16px;
+  margin: 3px;
+  background-color: #8566aa;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centre-div .btn:hover {
+  background-color: #ff4d4d;
+}
+
+.btndlt{
+  margin-left: 30px;
+}
